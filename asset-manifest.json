@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.d68b9ca4.css",
-    "main.js": "/shopping-cart/static/js/main.c4a4b6a2.js",
+    "main.js": "/shopping-cart/static/js/main.8d040ff9.js",
     "static/media/ryzen-9-7900.png": "/shopping-cart/static/media/ryzen-9-7900.1e2a30534b60dce75327.png",
     "static/media/RX-7900-XTX.png": "/shopping-cart/static/media/RX-7900-XTX.dbc75b13d6d2bdd1bc9f.png",
     "static/media/rx-570.png": "/shopping-cart/static/media/rx-570.e98c96320083a44b40f7.png",
@@ -12,10 +12,10 @@
     "static/media/MavenPro-Black.woff": "/shopping-cart/static/media/MavenPro-Black.efa1a858088cea4e2fae.woff",
     "index.html": "/shopping-cart/index.html",
     "main.d68b9ca4.css.map": "/shopping-cart/static/css/main.d68b9ca4.css.map",
-    "main.c4a4b6a2.js.map": "/shopping-cart/static/js/main.c4a4b6a2.js.map"
+    "main.8d040ff9.js.map": "/shopping-cart/static/js/main.8d040ff9.js.map"
   },
   "entrypoints": [
     "static/css/main.d68b9ca4.css",
-    "static/js/main.c4a4b6a2.js"
+    "static/js/main.8d040ff9.js"
   ]
 }
