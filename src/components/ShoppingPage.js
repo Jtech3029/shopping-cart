@@ -1,12 +1,14 @@
 import NavigationBar from "./NavigationBar";
 import Product from "./Product";
+import { links } from "../links";
 export default function ShoppingPage(props) {
 
   return(
     <div>
       <NavigationBar itemAmount={props.itemAmount}/>
-      <Product productName="1" productPrice={123} addToCart={props.addToCart}></Product>
-      <Product productName="5" productPrice={123} addToCart={props.addToCart}></Product>
+      {links.map((x) => (
+        <Product imageSource={x[0]} productName={x[1]} productPrice={x[2]} addToCart={props.addToCart}/>
+      ))}
 
     </div>
   )

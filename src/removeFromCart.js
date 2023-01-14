@@ -1,15 +1,14 @@
 export default function removeItemFromCart(cart, setCart, item, setItemAmount, itemAmount) {
     //check where the item is in the array
     const index = cart.findIndex(x => x[0] === item[0]);
-    //add another to the quantity
-    console.log(cart)
 
+    //if quantity isn't zero then just subtract the quantity
     if((cart[index][2] - 1) !== 0) {
       let copyCart = copyAllArray(cart);
       copyCart[index][2] -= item[2];
       setCart(copyCart);
     }
-    //add the item to the state
+    //otherwise remove the item from the array
     else{
       let copyCart = copyAllArray(cart);
       copyCart.splice(index, 1);
