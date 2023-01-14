@@ -6,6 +6,14 @@ import NavigationBar from "./NavigationBar";
 export default function Checkout(props) {
     const navigate = useNavigate();
 
+    function getSum() {
+        let sum = 0;
+        props.cart.forEach(element => {
+            sum += (element[1] * element[2]);
+        });
+        return sum;
+    }
+
     return(<div>
         <NavigationBar itemAmount={props.itemAmount}/>
         {props.cart.length > 0 && props.cart.map(element => (
@@ -20,7 +28,10 @@ export default function Checkout(props) {
         />            
         ))
         }
-        {props.cart.length > 0 && <button onClick={() => navigate("/")}>Complete Order</button>}
-        {props.cart.length <= 0 && <div>Your cart is empty</div>}
+        {props.cart.length > 0 && <div id="purchase">
+            <div>Total: ${getSum()}</div>
+            <button id="purchase-button" onClick={() => navigate("/")}>Complete Order</button>
+            </div>}
+        {props.cart.length <= 0 && <div id="empty-cart-text">Your cart is empty</div>}
     </div>)
 } 

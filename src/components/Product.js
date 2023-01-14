@@ -1,10 +1,12 @@
+import "../styles/product-style.css"
+
 export default function Product(props) {
     return (
-        <div>
-            <img src={props.imageSource} alt="A product"></img>
-            <div>{props.productName}</div>
-            <div>{props.productPrice}</div>
-            <button onClick=
+        <div className="product">
+            <img src={props.imageSource} alt="A product" className="product-image"></img>
+            <div className="product-name">{props.productName}</div>
+            <div>${props.productPrice}</div>
+            <button className="product-buttons" onClick=
                 {() => props.addToCart([
                 props.productName, 
                 props.productPrice, 

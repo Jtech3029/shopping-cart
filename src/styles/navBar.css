@@ -1,0 +1,33 @@
+@font-face { 
+    font-family: 'AMD';
+    src: url('./MavenPro-Black.woff') format('woff');
+}
+
+#nav-bar{
+
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar-button {
+    cursor: pointer;
+    font-family: "AMD";
+    font-size: 48px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#checkout {
+    display: flex;
+    align-items: center;
+}
+
+#checkout-number {
+    color: #ED1C24;
+    font-size: 24px;
+    padding-left: 10px;
+}

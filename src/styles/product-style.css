@@ -1,0 +1,14 @@
+.product-image{
+    width: 350px;
+    height: 350px;
+}
+.product{
+    font-family: "AMD";
+}
+
+.product-buttons {
+    cursor: pointer;
+    font-family: "AMD";
+    border: none;
+    background-color: transparent;
+}

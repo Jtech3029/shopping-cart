@@ -1,0 +1,33 @@
+.checkout-image{
+    width: 100px;
+    height: 100px;
+}
+
+.checkout-items{
+    font-family: "AMD";
+}
+.change-amount-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+#purchase{
+    display: flex;
+    font-size: 36px;
+    font-family: "AMD";
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    flex-direction: column;
+}
+
+#purchase-button{
+    background-color: white;
+    font-family: "AMD";
+    border-color: black;
+}
+
+#empty-cart-text{
+    font-family: "AMD";
+}

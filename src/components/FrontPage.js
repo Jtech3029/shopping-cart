@@ -7,9 +7,11 @@ export default function FrontPage(props) {
   const navigate = useNavigate();
 
   return(
-    <div>
+    <div id="front-page">
       <NavigationBar itemAmount={props.itemAmount}/>
-      <button onClick={() => navigate("/shopping-page")}>SHOP NOW</button>
+      <div id="front-page-button-holder">
+      <button id="front-page-button" onClick={() => navigate("/shopping-page")}>SHOP NOW</button>
+      </div>
     </div>
   )
 }
