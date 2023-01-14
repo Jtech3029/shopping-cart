@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.73ea1730.css",
-    "main.js": "/static/js/main.2e25b349.js",
-    "static/media/ryzen-9-7900.png": "/static/media/ryzen-9-7900.1e2a30534b60dce75327.png",
-    "static/media/RX-7900-XTX.png": "/static/media/RX-7900-XTX.dbc75b13d6d2bdd1bc9f.png",
-    "static/media/rx-570.png": "/static/media/rx-570.e98c96320083a44b40f7.png",
-    "static/media/rx-6650xt.png": "/static/media/rx-6650xt.a7a35c3bec4f19d5f75c.png",
-    "static/media/ryzen-5-5600.png": "/static/media/ryzen-5-5600.9e41311efb5ff9a7bb9c.png",
-    "static/media/ryzen-3-2200g.png": "/static/media/ryzen-3-2200g.d51d67068d8e85580cc2.png",
-    "static/media/AMD-Radeon-RX-7900-XTX.png": "/static/media/AMD-Radeon-RX-7900-XTX.168c4b907d88520caaa2.png",
-    "static/media/MavenPro-Black.woff": "/static/media/MavenPro-Black.efa1a858088cea4e2fae.woff",
-    "index.html": "/index.html",
-    "main.73ea1730.css.map": "/static/css/main.73ea1730.css.map",
-    "main.2e25b349.js.map": "/static/js/main.2e25b349.js.map"
+    "main.css": "/shopping-cart/static/css/main.d68b9ca4.css",
+    "main.js": "/shopping-cart/static/js/main.a5a788e9.js",
+    "static/media/ryzen-9-7900.png": "/shopping-cart/static/media/ryzen-9-7900.1e2a30534b60dce75327.png",
+    "static/media/RX-7900-XTX.png": "/shopping-cart/static/media/RX-7900-XTX.dbc75b13d6d2bdd1bc9f.png",
+    "static/media/rx-570.png": "/shopping-cart/static/media/rx-570.e98c96320083a44b40f7.png",
+    "static/media/rx-6650xt.png": "/shopping-cart/static/media/rx-6650xt.a7a35c3bec4f19d5f75c.png",
+    "static/media/ryzen-5-5600.png": "/shopping-cart/static/media/ryzen-5-5600.9e41311efb5ff9a7bb9c.png",
+    "static/media/ryzen-3-2200g.png": "/shopping-cart/static/media/ryzen-3-2200g.d51d67068d8e85580cc2.png",
+    "static/media/AMD-Radeon-RX-7900-XTX.png": "/shopping-cart/static/media/AMD-Radeon-RX-7900-XTX.168c4b907d88520caaa2.png",
+    "static/media/MavenPro-Black.woff": "/shopping-cart/static/media/MavenPro-Black.efa1a858088cea4e2fae.woff",
+    "index.html": "/shopping-cart/index.html",
+    "main.d68b9ca4.css.map": "/shopping-cart/static/css/main.d68b9ca4.css.map",
+    "main.a5a788e9.js.map": "/shopping-cart/static/js/main.a5a788e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ea1730.css",
-    "static/js/main.2e25b349.js"
+    "static/css/main.d68b9ca4.css",
+    "static/js/main.a5a788e9.js"
   ]
 }
